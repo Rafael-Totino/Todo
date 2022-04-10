@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/task_list_all"
+            android:icon="@drawable/ic_action_all"
+            android:title="@string/menu_item_all_tasks"/>
+
+        <item
+            android:id="@+id/task_list_overdue"
+            android:icon="@drawable/ic_action_overdue"
+            android:title="@string/menu_item_overdue" />
+
+        <item
+            android:id="@+id/task_list_completed"
+            android:icon="@drawable/ic_action_complete"
+            android:title="@string/menu_item_completed" />
+
+        <item android:id="@+id/task_list_tags" android:title="@string/menu_item_tags" >
+            <menu>
+                d
+            </menu>
+        </item>
+    </group>
+</menu>
